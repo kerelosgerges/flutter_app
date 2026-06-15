@@ -1,0 +1,1440 @@
+{
+  "crop_reminders": [
+    {
+      "crop_id": "tomato",
+      "crop_name_ar": "الطماطم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 14, "note": "ري خفيف يومياً أو يوم بعد يوم لثبات الشتلات"},
+        {"start_day": 15, "repeat_days": 3, "duration_days": 21, "note": "ري منتظم كل 3 أيام، تجنب التشبع المائي"},
+        {"start_day": 36, "repeat_days": 2, "duration_days": 21, "note": "ري حرج أثناء التزهير والعقد، نقصه يسبب تساقط الأزهار"},
+        {"start_day": 57, "repeat_days": 4, "duration_days": 40, "note": "تقليل تدريجي للري لتركيز السكريات ومنع تشقق الثمار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفوري + عضوي", "note": "يخلط مع التربة قبل الزراعة مباشرة"},
+        {"start_day": 10, "repeat_days": 0, "type": "NPK متوازن (20-20-20)", "note": "دعم النمو الخضري الأول"},
+        {"start_day": 25, "repeat_days": 0, "type": "بورون + زنك (رشة ورقية)", "note": "تحسين التلقيح وعقد الثمار"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 45, "type": "بوتاسيوم عالي + كالسيوم", "note": "تحسين جودة الثمار ومنع عفن الطرف الزهري"}
+      ]
+    },
+    {
+      "crop_id": "potato",
+      "crop_name_ar": "البطاطس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف منتظم لثبات التقاوي"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 20, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 36, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء تكوين الدرنات، تجنب الجفاف أو الغرق"},
+        {"start_day": 66, "repeat_days": 5, "duration_days": 15, "note": "تقليل تدريجي قبل الحصاد بـ 10-14 يوم"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يضاف مع التربة عند الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين (ثلث الكمية)", "note": "دعم النمو الخضري"},
+        {"start_day": 35, "repeat_days": 14, "duration_days": 28, "type": "نيتروجين + بوتاسيوم + ماغنسيوم", "note": "تضخم الدرنات ومنع التشقق"}
+      ]
+    },
+    {
+      "crop_id": "mango",
+      "crop_name_ar": "المانجو",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 90, "note": "ري منتظم للأشجار الصغيرة، تجنب الجفاف"},
+        {"start_day": 91, "repeat_days": 5, "duration_days": 60, "note": "تقليل الري قبل التزهير بشهر"},
+        {"start_day": 151, "repeat_days": 4, "duration_days": 45, "note": "ري حرج أثناء العقد وتضخم الثمار"},
+        {"start_day": 196, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل النضج لتركيز الطعم والسكر"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد بلدي + فوسفور", "note": "يضاف شتاءً حول الشجرة"},
+        {"start_day": 60, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن مجزأ", "note": "3 دفعات من الربيع للصيف"},
+        {"start_day": 120, "repeat_days": 0, "type": "زنك + حديد + بورون", "note": "رشة ورقية قبل وبعد العقد"}
+      ]
+    },
+    {
+      "crop_id": "strawberry",
+      "crop_name_ar": "الفراولة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 20, "note": "ري خفيف متكرر لتثبيت الجذور"},
+        {"start_day": 21, "repeat_days": 3, "duration_days": 40, "note": "حافظ على رطوبة التربة دون تشبع"},
+        {"start_day": 61, "repeat_days": 2, "duration_days": 60, "note": "ري منتظم أثناء التزهير والإثمار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة قبل الزراعة"},
+        {"start_day": 15, "repeat_days": 14, "duration_days": 70, "type": "نيتروجين + بوتاسيوم + كالسيوم", "note": "إضافة دورية مع مياه الري لدعم الإثمار"},
+        {"start_day": 30, "repeat_days": 21, "duration_days": 60, "type": "عناصر صغرى (حديد، زنك)", "note": "رشة ورقية دورية"}
+      ]
+    },
+    {
+      "crop_id": "onion",
+      "crop_name_ar": "البصل",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 25, "note": "ري منتظم لثبات الشتلات"},
+        {"start_day": 26, "repeat_days": 4, "duration_days": 30, "note": "ري أثناء النمو الخضري"},
+        {"start_day": 56, "repeat_days": 5, "duration_days": 35, "note": "تقليل تدريجي أثناء تكوين البصلة"},
+        {"start_day": 91, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري 2-3 أسابيع قبل الحصاد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور أساسي", "note": "يضاف مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين (الدفعة الأولى)", "note": "دعم النمو الخضري"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين + بوتاسيوم", "note": "تضخم البصلات"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم عالي", "note": "تحسين الصلابة والتخزين"}
+      ]
+    },
+    {
+      "crop_id": "maize_corn",
+      "crop_name_ar": "الذرة الشامية",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 15, "note": "ري منتظم بعد الزراعة"},
+        {"start_day": 16, "repeat_days": 5, "duration_days": 20, "note": "ري عند مرحلة الركبة"},
+        {"start_day": 36, "repeat_days": 3, "duration_days": 25, "note": "ري حرج أثناء الطلع والتلقيح"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 30, "note": "ري أثناء امتلاء الحبوب"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + زنك", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين (ثلث)", "note": "عند الزراعة أو بعدها"},
+        {"start_day": 35, "repeat_days": 0, "type": "نيتروجين (ثلث)", "note": "قبل التلقيح"},
+        {"start_day": 50, "repeat_days": 0, "type": "نيتروجين (الباقي) + بوتاسيوم", "note": "أثناء امتلاء الحبوب"}
+      ]
+    },
+    {
+      "crop_id": "sugar_beet",
+      "crop_name_ar": "البنجر السكري",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 40, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 40, "note": "ري حرج أثناء تضخم الجذور"},
+        {"start_day": 101, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري قبل الحصاد بـ 2-3 أسابيع"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين (نصف الكمية)", "note": "دعم النمو"},
+        {"start_day": 50, "repeat_days": 0, "type": "نيتروجين (الباقي) + بورون", "note": "منع عفن القلب وتحسين السكر"}
+      ]
+    },
+    {
+      "crop_id": "guava",
+      "crop_name_ar": "الجوافة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 60, "note": "ري منتظم للأشجار حديثة الغرس"},
+        {"start_day": 61, "repeat_days": 5, "duration_days": 40, "note": "تقليل الري قبل التزهير"},
+        {"start_day": 101, "repeat_days": 4, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 146, "repeat_days": 6, "duration_days": 20, "note": "تقليل قبل النضج لتركيز الطعم"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 30, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن", "note": "3 دفعات من الربيع للصيف"},
+        {"start_day": 60, "repeat_days": 0, "type": "بورون + زنك", "note": "رشة قبل التزهير"}
+      ]
+    },
+    {
+      "crop_id": "watermelon",
+      "crop_name_ar": "البطيخ",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء التمدد الخضري"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء العقد وتضخم الثمار"},
+        {"start_day": 71, "repeat_days": 5, "duration_days": 15, "note": "تقليل قبل الحصاد بـ 10 أيام لزيادة الحلاوة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الأول"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 30, "type": "بوتاسيوم عالي + كالسيوم", "note": "تحسين جودة الثمار ومنع التشقق"}
+      ]
+    },
+    {
+      "crop_id": "grape",
+      "crop_name_ar": "العنب",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 31, "repeat_days": 5, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 30, "note": "ري حرج أثناء العقد والتلون"},
+        {"start_day": 91, "repeat_days": 6, "duration_days": 20, "note": "تقليل قبل القطف لتركيز السكريات"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين + بوتاسيوم", "note": "بعد العقد"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + مغنيسيوم + بورون", "note": "تحسين النضج والجودة"}
+      ]
+    },
+    {
+      "crop_id": "banana",
+      "crop_name_ar": "الموز",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 60, "note": "ري منتظم وخفيف لثبات الخلف"},
+        {"start_day": 61, "repeat_days": 2, "duration_days": 90, "note": "ري يومي أو يوم بعد يوم أثناء التزهير"},
+        {"start_day": 151, "repeat_days": 2, "duration_days": 90, "note": "حافظ على الرطوبة أثناء ملء الأصابع"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يخلط مع حفرة الزراعة"},
+        {"start_day": 30, "repeat_days": 15, "duration_days": 180, "type": "نيتروجين + بوتاسيوم + مغنيسيوم", "note": "إضافة دورية مع الري كل أسبوعين"}
+      ]
+    },
+    {
+      "crop_id": "pomegranate",
+      "crop_name_ar": "الرمان",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج لمنع التشقق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين", "note": "دفعات مجزأة"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + زنك + بورون", "note": "تحسين العقد والجودة"}
+      ]
+    },
+    {
+      "crop_id": "peach",
+      "crop_name_ar": "الخوخ",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 40, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 41, "repeat_days": 5, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 71, "repeat_days": 4, "duration_days": 45, "note": "ري حرج أثناء تضخم الثمار"},
+        {"start_day": 116, "repeat_days": 6, "duration_days": 15, "note": "تقليل قبل القطاف لتحسين الطعم"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم", "note": "تحسين صلابة الثمار"}
+      ]
+    },
+    {
+      "crop_id": "apple",
+      "crop_name_ar": "التفاح",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 5, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 4, "duration_days": 50, "note": "ري حرج أثناء العقد وتضخم الثمار"},
+        {"start_day": 126, "repeat_days": 6, "duration_days": 20, "note": "تقليل قبل النضج لتحسين اللون والتخزين"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين مجزأ", "note": "دفعات متعددة"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم + بورون", "note": "تحسين التخزين والجودة"}
+      ]
+    },
+    {
+      "crop_id": "okra",
+      "crop_name_ar": "البامية",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 40, "note": "ري حرج أثناء التزهير وتكوين القرون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 10, "duration_days": 30, "type": "بوتاسيوم + عناصر صغرى", "note": "تحسين جودة القرون"}
+      ]
+    },
+    {
+      "crop_id": "parsley",
+      "crop_name_ar": "البقدونس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم بعد كل حشة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف", "note": "يخلط مع التربة"},
+        {"start_day": 15, "repeat_days": 15, "duration_days": 45, "type": "نيتروجين متوازن", "note": "دفعات بعد كل قطع"}
+      ]
+    },
+    {
+      "crop_id": "coriander",
+      "crop_name_ar": "الكزبرة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 40, "note": "ري منتظم للحفاظ على الأوراق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور أساسي", "note": "يخلط مع التربة"},
+        {"start_day": 10, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"}
+      ]
+    },
+    {
+      "crop_id": "bell_pepper",
+      "crop_name_ar": "الفلفل الرومي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء العقد والتلوين"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين متوازن", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 40, "type": "بوتاسيوم + كالسيوم", "note": "تحسين اللون والصلابة"}
+      ]
+    },
+    {
+      "crop_id": "garlic",
+      "crop_name_ar": "الثوم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف لثبات الفصوص"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 40, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 61, "repeat_days": 5, "duration_days": 30, "note": "تقليل أثناء تضخم الرؤوس"},
+        {"start_day": 91, "repeat_days": 0, "duration_days": 0, "note": "إيقاف قبل الحصاد بـ 2-3 أسابيع"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 50, "repeat_days": 0, "type": "بوتاسيوم", "note": "تضخم الرؤوس"}
+      ]
+    },
+    {
+      "crop_id": "date_palm",
+      "crop_name_ar": "النخيل (البلح)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 40, "note": "ري أثناء الطلع والتلقيح"},
+        {"start_day": 101, "repeat_days": 5, "duration_days": 60, "note": "ري حرج أثناء تضخم الثمار"},
+        {"start_day": 161, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي غزير + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين مجزأ", "note": "3 دفعات"},
+        {"start_day": 90, "repeat_days": 0, "type": "بوتاسيوم عالي", "note": "تحسين جودة التمر"}
+      ]
+    },
+	  {
+      "crop_id": "sugarcane",
+      "crop_name_ar": "قصب السكر",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم لثبات العقل"},
+        {"start_day": 31, "repeat_days": 5, "duration_days": 60, "note": "ري أثناء التفريع والاستطالة"},
+        {"start_day": 91, "repeat_days": 4, "duration_days": 60, "note": "ري حرج أثناء تكوين السكروز"},
+        {"start_day": 151, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري قبل الحصاد بـ 3 أسابيع لرفع نسبة السكر"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + عضوي", "note": "يخلط مع التربة عند الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين (ثلث الكمية)", "note": "بعد التجذير"},
+        {"start_day": 70, "repeat_days": 0, "type": "نيتروجين (ثلث) + بوتاسيوم", "note": "قبل الاستطالة"},
+        {"start_day": 100, "repeat_days": 0, "type": "نيتروجين (الباقي) + زنك", "note": "أثناء تكوين السكروز"}
+      ]
+    },
+    {
+      "crop_id": "sorghum",
+      "crop_name_ar": "الذرة الرفيعة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 20, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 21, "repeat_days": 6, "duration_days": 30, "note": "ري أثناء النمو الخضري"},
+        {"start_day": 51, "repeat_days": 5, "duration_days": 25, "note": "ري حرج عند الطلع والتلقيح"},
+        {"start_day": 76, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين (نصف)", "note": "بعد التجذير"},
+        {"start_day": 50, "repeat_days": 0, "type": "نيتروجين (نصف) + زنك", "note": "قبل الطلع"}
+      ]
+    },
+    {
+      "crop_id": "eggplant",
+      "crop_name_ar": "الباذنجان",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 40, "note": "ري حرج أثناء التزهير والعقد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + عضوي", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين متوازن", "note": "دعم النمو الخضري"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 40, "type": "بوتاسيوم + كالسيوم", "note": "تحسين جودة الثمار"}
+      ]
+    },
+    {
+      "crop_id": "lemon",
+      "crop_name_ar": "الليمون",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم للأشجار حديثة الغرس"},
+        {"start_day": 61, "repeat_days": 6, "duration_days": 40, "note": "تقليل قبل التزهير"},
+        {"start_day": 101, "repeat_days": 5, "duration_days": 60, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 161, "repeat_days": 7, "duration_days": 30, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد بلدي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن مجزأ", "note": "3 دفعات من الربيع للصيف"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + زنك + بورون", "note": "رشة ورقية لتحسين الجودة"}
+      ]
+    },
+    {
+      "crop_id": "mandarin",
+      "crop_name_ar": "اليوسفي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 61, "repeat_days": 6, "duration_days": 40, "note": "تقليل قبل التزهير"},
+        {"start_day": 101, "repeat_days": 5, "duration_days": 60, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 161, "repeat_days": 7, "duration_days": 30, "note": "تقليل قبل النضج لمنع التشقق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد بلدي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن", "note": "3 دفعات مجزأة"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + مغنيسيوم + بورون", "note": "تحسين الطعم واللون"}
+      ]
+    },
+    {
+      "crop_id": "alfalfa",
+      "crop_name_ar": "البرسيم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 30, "note": "ري بعد كل حشة لتحفيز النمو"},
+        {"start_day": 51, "repeat_days": 5, "duration_days": 40, "note": "ري منتظم أثناء موسم الحش"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح ريازوبيوم", "note": "يخلط مع التربة أو البذور"},
+        {"start_day": 30, "repeat_days": 0, "type": "فوسفور (دفعة ثانية)", "note": "بعد أول حشة"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم + كبريت", "note": "لتحسين جودة العلف"}
+      ]
+    },
+    {
+      "crop_id": "barley",
+      "crop_name_ar": "الشعير",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 25, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 26, "repeat_days": 7, "duration_days": 30, "note": "ري أثناء التفريعات"},
+        {"start_day": 56, "repeat_days": 5, "duration_days": 30, "note": "ري حرج عند الطلع"},
+        {"start_day": 86, "repeat_days": 0, "duration_days": 0, "note": "إيقاف قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين (ثلث)", "note": "بعد 3-4 أسابيع"},
+        {"start_day": 45, "repeat_days": 0, "type": "نيتروجين (ثلث)", "note": "قبل التفريعات"},
+        {"start_day": 65, "repeat_days": 0, "type": "نيتروجين (الباقي) + زنك", "note": "عند الطلع"}
+      ]
+    },
+    {
+      "crop_id": "sweet_potato",
+      "crop_name_ar": "البطاطا الحلوة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات العقل"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 41, "repeat_days": 5, "duration_days": 40, "note": "ري حرج أثناء تكوين الدرنات"},
+        {"start_day": 81, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + عضوي", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الأول"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم عالي + بورون", "note": "تضخم الدرنات وتحسين الطعم"}
+      ]
+    },
+    {
+      "crop_id": "zucchini",
+      "crop_name_ar": "الكوسة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 2, "duration_days": 25, "note": "ري متكرر أثناء التمدد الخضري"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم أثناء الإثمار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 15, "repeat_days": 7, "duration_days": 35, "type": "NPK متوازن + كالسيوم", "note": "إضافة دورية مع الري"},
+        {"start_day": 30, "repeat_days": 0, "type": "عناصر صغرى (رشة)", "note": "تحسين العقد والجودة"}
+      ]
+    },
+    {
+      "crop_id": "green_beans",
+      "crop_name_ar": "الفاصوليا الخضراء",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء التزهير وعقد القرون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح ريازوبيوم", "note": "يخلط مع التربة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف (اختياري)", "note": "فقط في الأراضي الضعيفة"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين عقد القرون"}
+      ]
+    },
+    {
+      "crop_id": "peas",
+      "crop_name_ar": "البسلة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للإنبات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 46, "repeat_days": 4, "duration_days": 25, "note": "ري حرج أثناء التزهير وعقد القرون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين العقد وملء القرون"}
+      ]
+    },
+    {
+      "crop_id": "apricot",
+      "crop_name_ar": "المشمش",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم + بورون", "note": "تحسين الجودة ومنع التشقق"}
+      ]
+    },
+    {
+      "crop_id": "chamomile",
+      "crop_name_ar": "البابونج",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 46, "repeat_days": 3, "duration_days": 20, "note": "ري أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم (رشة)", "note": "تحسين جودة الأزهار"}
+      ]
+    },
+    {
+      "crop_id": "thyme",
+      "crop_name_ar": "الزعتر",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للتجذير"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري معتدل، يتحمل الجفاف"},
+        {"start_day": 51, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"},
+        {"start_day": 50, "repeat_days": 0, "type": "عناصر صغرى (رشة)", "note": "تحسين جودة الزيت العطري"}
+      ]
+    },
+    {
+      "crop_id": "sage",
+      "crop_name_ar": "المريمية",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للتجذير"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري معتدل، يتحمل الجفاف"},
+        {"start_day": 51, "repeat_days": 4, "duration_days": 20, "note": "ري أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 50, "repeat_days": 0, "type": "عناصر صغرى (رشة)", "note": "تحسين الزيت العطري"}
+      ]
+    },
+    {
+      "crop_id": "rosemary",
+      "crop_name_ar": "إكليل الجبل (الروزماري)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للتجذير"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري معتدل، يتحمل الجفاف"},
+        {"start_day": 51, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"},
+        {"start_day": 50, "repeat_days": 0, "type": "عناصر صغرى (رشة)", "note": "تحسين جودة الزيت"}
+      ]
+    },
+    {
+      "crop_id": "fennel",
+      "crop_name_ar": "الشمر",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 20, "note": "ري أثناء تكوين الساق المنتفخة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين تكوين البصلات"}
+      ]
+    },
+    {
+      "crop_id": "tamarind",
+      "crop_name_ar": "التمر الهندي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 40, "note": "تقليل قبل التزهير"},
+        {"start_day": 101, "repeat_days": 6, "duration_days": 60, "note": "ري أثناء العقد وتضخم القرون"},
+        {"start_day": 161, "repeat_days": 8, "duration_days": 30, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن", "note": "3 دفعات مجزأة"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + زنك", "note": "تحسين جودة القرون"}
+      ]
+    },
+    {
+      "crop_id": "anise",
+      "crop_name_ar": "الينسون",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 5, "duration_days": 20, "note": "ري أثناء التزهير"},
+        {"start_day": 61, "repeat_days": 0, "duration_days": 0, "note": "إيقاف قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين تكوين البذور"}
+      ]
+    },
+    {
+      "crop_id": "fenugreek",
+      "crop_name_ar": "الحلبة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 5, "duration_days": 20, "note": "ري أثناء التزهير وعقد القرون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين عقد القرون"}
+      ]
+    },
+    {
+      "crop_id": "acacia",
+      "crop_name_ar": "السنط",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للشتلات الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل، يتحمل الجفاف بعد التأسيس"},
+        {"start_day": 121, "repeat_days": 10, "duration_days": 30, "note": "ري خفيف أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "يخلط مع حفرة الزراعة"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم", "note": "دعم النمو بعد التأسيس"}
+      ]
+    },
+    {
+      "crop_id": "tamarix",
+      "crop_name_ar": "الطرفاء (الأثل)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للشتلات الحديثة"},
+        {"start_day": 46, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل، يتحمل الملوحة والجفاف"},
+        {"start_day": 106, "repeat_days": 10, "duration_days": 30, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "يخلط مع التربة"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم", "note": "دعم النمو في الأراضي المالحة"}
+      ]
+    },
+    {
+      "crop_id": "desert_grass",
+      "crop_name_ar": "الحلفا",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 30, "note": "ري خفيف للتجذير"},
+        {"start_day": 31, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل، يتحمل الجفاف"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"}
+      ]
+    },
+    {
+      "crop_id": "wormwood",
+      "crop_name_ar": "الشيح",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 30, "note": "ري خفيف للتجذير"},
+        {"start_day": 31, "repeat_days": 7, "duration_days": 45, "note": "ري معتدل، يتحمل الجفاف الشديد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف جداً", "note": "دعم النمو"}
+      ]
+    },
+    {
+      "crop_id": "sidr",
+      "crop_name_ar": "السدر (النبق)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للشتلات الحديثة"},
+        {"start_day": 61, "repeat_days": 8, "duration_days": 60, "note": "ري معتدل، يتحمل الجفاف بعد التأسيس"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 40, "note": "ري أثناء العقد وتضخم الثمار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يخلط مع حفرة الزراعة"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم + زنك", "note": "تحسين جودة الثمار"}
+      ]
+    },
+    {
+      "crop_id": "alhagi",
+      "crop_name_ar": "العاقول",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 6, "duration_days": 45, "note": "ري خفيف للتجذير"},
+        {"start_day": 46, "repeat_days": 10, "duration_days": 60, "note": "ري معتدل، يتحمل الجفاف الشديد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 50, "repeat_days": 0, "type": "بوتاسيوم", "note": "دعم النمو في الأراضي الجافة"}
+      ]
+    },
+    {
+      "crop_id": "rhanterium",
+      "crop_name_ar": "الرمث",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 6, "duration_days": 45, "note": "ري خفيف للتجذير"},
+        {"start_day": 46, "repeat_days": 10, "duration_days": 60, "note": "ري معتدل، يتحمل الجفاف والملوحة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 50, "repeat_days": 0, "type": "بوتاسيوم", "note": "دعم النمو"}
+      ]
+    },
+    {
+      "crop_id": "atriplex",
+      "crop_name_ar": "القطف (الأتريبلس)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 30, "note": "ري خفيف للإنبات"},
+        {"start_day": 31, "repeat_days": 6, "duration_days": 45, "note": "ري معتدل، يتحمل الملوحة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"}
+      ]
+    },
+    {
+      "crop_id": "eucalyptus",
+      "crop_name_ar": "كافور (الأوكالبتوس)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم للشتلات الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل بعد التأسيس"},
+        {"start_day": 121, "repeat_days": 10, "duration_days": 30, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "يخلط مع حفرة الزراعة"},
+        {"start_day": 60, "repeat_days": 0, "type": "نيتروجين + بوتاسيوم", "note": "دعم النمو السريع"}
+      ]
+    },
+    {
+      "crop_id": "casuarina",
+      "crop_name_ar": "كازورينا",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم للشتلات الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل، يتحمل الملوحة"},
+        {"start_day": 121, "repeat_days": 10, "duration_days": 30, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "يخلط مع التربة"},
+        {"start_day": 60, "repeat_days": 0, "type": "نيتروجين + بوتاسيوم", "note": "دعم النمو"}
+      ]
+    },
+	 {
+      "crop_id": "moringa",
+      "crop_name_ar": "المورينجا",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للشتلات حديثة الغرس"},
+        {"start_day": 46, "repeat_days": 7, "duration_days": 60, "note": "ري معتدل، تتحمل الجفاف بعد التأسيس"},
+        {"start_day": 106, "repeat_days": 5, "duration_days": 30, "note": "ري خفيف أثناء التزهير والحش"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 40, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم النمو الخضري"},
+        {"start_day": 80, "repeat_days": 0, "type": "نيتروجين خفيف بعد القص", "note": "تحفيز التفرع"}
+      ]
+    },
+    {
+      "crop_id": "neem",
+      "crop_name_ar": "النيم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للشتلات"},
+        {"start_day": 61, "repeat_days": 8, "duration_days": 60, "note": "ري معتدل، تتحمل الجفاف الشديد"},
+        {"start_day": 121, "repeat_days": 10, "duration_days": 30, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم + زنك", "note": "دعم النمو ومقاومة الملوحة"}
+      ]
+    },
+    {
+      "crop_id": "ficus",
+      "crop_name_ar": "الفيكس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم، تجنب التشبع"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 60, "note": "ري معتدل، حساس للجفاف الشديد"},
+        {"start_day": 106, "repeat_days": 7, "duration_days": 30, "note": "ري خفيف في الشتاء"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK متوازن + عضوي", "note": "يخلط مع التربة"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 60, "type": "NPK سائل", "note": "إضافة دورية مع الري"}
+      ]
+    },
+    {
+      "crop_id": "jacaranda",
+      "crop_name_ar": "الجاكراندا",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للشتلات"},
+        {"start_day": 46, "repeat_days": 7, "duration_days": 45, "note": "ري معتدل قبل التزهير"},
+        {"start_day": 91, "repeat_days": 5, "duration_days": 30, "note": "ري أثناء الإزهار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "أساسي شتاءً"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين الإزهار"}
+      ]
+    },
+    {
+      "crop_id": "weeping_fig",
+      "crop_name_ar": "اللبخ (ذقن الباشا)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم، صرف جيد ضروري"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 60, "note": "ري معتدل، حساس للغرق"},
+        {"start_day": 106, "repeat_days": 7, "duration_days": 30, "note": "ري خفيف في الشتاء"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK متوازن", "note": "يخلط مع التربة"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 60, "type": "سماد ورقي متوازن", "note": "دعم الأوراق الخضراء"}
+      ]
+    },
+    {
+      "crop_id": "rose",
+      "crop_name_ar": "الورد البلدي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم، تجنب البلل على الأوراق"},
+        {"start_day": 31, "repeat_days": 4, "duration_days": 30, "note": "ري حرج أثناء التبرعم"},
+        {"start_day": 61, "repeat_days": 3, "duration_days": 30, "note": "ري متكرر أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 30, "repeat_days": 15, "duration_days": 60, "type": "NPK + كالسيوم + بورون", "note": "إضافة دورية لدعم الأزهار"}
+      ]
+    },
+    {
+      "crop_id": "jasmine",
+      "crop_name_ar": "الياسمين البلدي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم للتجذير"},
+        {"start_day": 31, "repeat_days": 4, "duration_days": 45, "note": "ري معتدل، تجنب الجفاف"},
+        {"start_day": 76, "repeat_days": 3, "duration_days": 30, "note": "ري أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 20, "duration_days": 60, "type": "NPK متوازن", "note": "دفعات مجزأة"}
+      ]
+    },
+    {
+      "crop_id": "hibiscus_ornamental",
+      "crop_name_ar": "الكركديه زينة (الهيبسكس)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم، حساس للجفاف"},
+        {"start_day": 31, "repeat_days": 4, "duration_days": 45, "note": "ري معتدل أثناء النمو"},
+        {"start_day": 76, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK أساسي", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 15, "duration_days": 60, "type": "بوتاسيوم + حديد", "note": "دعم الأزهار ومنع اصفرار الأوراق"}
+      ]
+    },
+    {
+      "crop_id": "bougainvillea",
+      "crop_name_ar": "الجهنمية",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للتجذير"},
+        {"start_day": 46, "repeat_days": 7, "duration_days": 45, "note": "ري خفيف، تتحمل الجفاف"},
+        {"start_day": 91, "repeat_days": 5, "duration_days": 30, "note": "إجهاد مائي خفيف يحفز التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم عالي + قليل النيتروجين", "note": "تحفيز الإزهار"}
+      ]
+    },
+    {
+      "crop_id": "lily",
+      "crop_name_ar": "الزنبق (الليليوم)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف، تجنب تشبع البصلات"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم أثناء النمو والتبرعم"},
+        {"start_day": 51, "repeat_days": 5, "duration_days": 20, "note": "تقليل بعد الذبول"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم الساق والأزهار"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم", "note": "تحسين صلابة الساق"}
+      ]
+    },
+    {
+      "crop_id": "orchid",
+      "crop_name_ar": "الأوركيد",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 30, "note": "ري خفيف جداً، رطوبة هوائية عالية"},
+        {"start_day": 31, "repeat_days": 3, "duration_days": 45, "note": "ري متكرر، تجنب تجمع الماء حول الجذور"},
+        {"start_day": 76, "repeat_days": 4, "duration_days": 30, "note": "ري خفيف أثناء السكون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 15, "repeat_days": 10, "duration_days": 60, "type": "سماد أوركيد خاص (NPK 20-20-20 مخفف)", "note": "رش أو ري مخفف جداً"},
+        {"start_day": 45, "repeat_days": 0, "type": "بوتاسيوم عالي + عناصر صغرى", "note": "دعم التزهير"}
+      ]
+    },
+    {
+      "crop_id": "sunflower",
+      "crop_name_ar": "دوار الشمس (عباد الشمس)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 46, "repeat_days": 4, "duration_days": 25, "note": "ري حرج عند الطلع والتلقيح"},
+        {"start_day": 71, "repeat_days": 5, "duration_days": 15, "note": "ري أثناء امتلاء البذور"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + بورون", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين (نصف)", "note": "دعم الساق"},
+        {"start_day": 45, "repeat_days": 0, "type": "نيتروجين (الباقي) + بوتاسيوم", "note": "قبل الطلع"}
+      ]
+    },
+    {
+      "crop_id": "peanut",
+      "crop_name_ar": "الفول السوداني",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للإنبات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 51, "repeat_days": 4, "duration_days": 25, "note": "ري حرج أثناء تكوين القرون"},
+        {"start_day": 76, "repeat_days": 0, "duration_days": 0, "note": "إيقاف قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + كالسيوم + لقاح", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف (اختياري)", "note": "فقط في الأراضي الضعيفة"},
+        {"start_day": 50, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين امتلاء القرون"}
+      ]
+    },
+    {
+      "crop_id": "sesame",
+      "crop_name_ar": "السمسم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 5, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 6, "duration_days": 20, "note": "ري أثناء التزهير، تقليل قبل الحصاد"},
+        {"start_day": 61, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري 10-15 يوم قبل الحصاد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 0, "type": "زنك + بورون (رشة)", "note": "تحسين تكوين الكبسولات"}
+      ]
+    },
+    {
+      "crop_id": "lentil",
+      "crop_name_ar": "العدس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للإنبات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 51, "repeat_days": 6, "duration_days": 25, "note": "ري أثناء التزهير وعقد القرون"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح ريازوبيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين العقد وملء القرون"}
+      ]
+    },
+    {
+      "crop_id": "chickpea",
+      "crop_name_ar": "الحمص",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للإنبات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 51, "repeat_days": 6, "duration_days": 25, "note": "ري حرج أثناء التزهير"},
+        {"start_day": 76, "repeat_days": 0, "duration_days": 0, "note": "إيقاف قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم + بورون", "note": "دعم عقد القرون"}
+      ]
+    },
+    {
+      "crop_id": "lupin",
+      "crop_name_ar": "الترمس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف للإنبات، يفضل التربة الحمضية"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 51, "repeat_days": 6, "duration_days": 20, "note": "ري أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + لقاح", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "بوتاسيوم + كبريت", "note": "تحسين جودة البذور"}
+      ]
+    },
+    {
+      "crop_id": "arugula",
+      "crop_name_ar": "الجرجير",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 10, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 11, "repeat_days": 3, "duration_days": 20, "note": "ري منتظم للحفاظ على الطراوة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK خفيف", "note": "يخلط مع التربة"},
+        {"start_day": 10, "repeat_days": 0, "type": "نيتروجين خفيف + حديد", "note": "دعم الأوراق ومنع الاصفرار"}
+      ]
+    },
+    {
+      "crop_id": "molokhia",
+      "crop_name_ar": "الملوخية",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم بعد كل حشة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 15, "repeat_days": 10, "duration_days": 40, "type": "نيتروجين مجزأ", "note": "إضافة دورية بعد كل قطع"}
+      ]
+    },
+    {
+      "crop_id": "spinach",
+      "crop_name_ar": "السبانخ",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 3, "duration_days": 20, "note": "ري منتظم، تجنب التشبع"},
+        {"start_day": 36, "repeat_days": 4, "duration_days": 10, "note": "ري قبل الحصاد بأسبوع"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "نيتروجين متوسط + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 15, "repeat_days": 0, "type": "نيتروجين (دفعة ثانية)", "note": "تسريع النمو الخضري"},
+        {"start_day": 25, "repeat_days": 0, "type": "حديد + ماغنسيوم (رشة)", "note": "منع الاصفرار وتحسين اللون"}
+      ]
+    },
+    {
+      "crop_id": "leek",
+      "crop_name_ar": "الكراث",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم أثناء التبييض"},
+        {"start_day": 51, "repeat_days": 5, "duration_days": 20, "note": "ري أثناء تضخم السيقان"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين متوازن", "note": "دعم النمو"},
+        {"start_day": 45, "repeat_days": 0, "type": "بوتاسيوم + كبريت", "note": "تحسين النكهة والصلابة"}
+      ]
+    },
+    {
+      "crop_id": "pumpkin",
+      "crop_name_ar": "القرع (اليقطين)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء التمدد"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 40, "note": "ري حرج أثناء عقد وتضخم الثمار"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الأول"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 40, "type": "بوتاسيوم عالي + كالسيوم", "note": "تحسين حجم الثمار ومنع التعفن"}
+      ]
+    },
+    {
+      "crop_id": "cantaloupe",
+      "crop_name_ar": "الشمام (الكانتالوب)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء التمدد"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء العقد"},
+        {"start_day": 71, "repeat_days": 5, "duration_days": 15, "note": "تقليل قبل الحصاد لزيادة الحلاوة"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 30, "type": "بوتاسيوم عالي + بورون", "note": "تحسين الطعم ومنع التشقق"}
+      ]
+    },
+    {
+      "crop_id": "mulberry",
+      "crop_name_ar": "التوت",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + زنك", "note": "تحسين جودة الثمار"}
+      ]
+    },
+    {
+      "crop_id": "olive",
+      "crop_name_ar": "الزيتون",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 40, "note": "تقليل الري قبل التزهير"},
+        {"start_day": 101, "repeat_days": 6, "duration_days": 50, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 151, "repeat_days": 8, "duration_days": 30, "note": "تقليل قبل النضج لتركيز الزيت"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد بلدي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 60, "type": "نيتروجين مجزأ", "note": "دفعات من الربيع للصيف"},
+        {"start_day": 90, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين عقد الثمار ونسبة الزيت"}
+      ]
+    },
+    {
+      "crop_id": "almond",
+      "crop_name_ar": "اللوز",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للشتلات"},
+        {"start_day": 61, "repeat_days": 7, "duration_days": 40, "note": "تقليل قبل التزهير"},
+        {"start_day": 101, "repeat_days": 6, "duration_days": 60, "note": "ري حرج أثناء ملء النواة"},
+        {"start_day": 161, "repeat_days": 8, "duration_days": 30, "note": "تقليل قبل الجني"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "نيتروجين مجزأ", "note": "3 دفعات"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + زنك + بورون", "note": "تحسين جودة اللوز"}
+      ]
+    },
+    {
+      "crop_id": "walnut",
+      "crop_name_ar": "الجوز (عين الجمل)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم، حساس للجفاف"},
+        {"start_day": 61, "repeat_days": 6, "duration_days": 40, "note": "تقليل قبل التزهير"},
+        {"start_day": 101, "repeat_days": 5, "duration_days": 60, "note": "ري حرج أثناء ملء الثمار"},
+        {"start_day": 161, "repeat_days": 7, "duration_days": 30, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي غزير + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "نيتروجين + زنك", "note": "دفعات مجزأة"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين الجودة والتخزين"}
+      ]
+    },
+    {
+      "crop_id": "hot_pepper",
+      "crop_name_ar": "الفلفل الحار",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 16, "repeat_days": 4, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري حرج أثناء العقد والتلوين"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين متوازن", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 14, "duration_days": 40, "type": "بوتاسيوم + كالسيوم", "note": "تحسين اللون والحدة"}
+      ]
+    },
+    {
+      "crop_id": "taro",
+      "crop_name_ar": "القلقاس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 20, "note": "ري غزير متكرر، يتحمل التشبع"},
+        {"start_day": 21, "repeat_days": 3, "duration_days": 40, "note": "ري منتظم أثناء النمو وتكوين الدرنات"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 20, "note": "تقليل تدريجي قبل الحصاد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "نيتروجين + بوتاسيوم + عضوي", "note": "أساسي مع الزراعة"},
+        {"start_day": 30, "repeat_days": 0, "type": "بوتاسيوم عالي + كالسيوم", "note": "تضخم الدرنات"},
+        {"start_day": 60, "repeat_days": 0, "type": "عناصر صغرى", "note": "تحسين الجودة"}
+      ]
+    },
+    {
+      "crop_id": "ginger",
+      "crop_name_ar": "الزنجبيل",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف متكرر، رطوبة عالية"},
+        {"start_day": 21, "repeat_days": 3, "duration_days": 40, "note": "ري منتظم، تجنب الجفاف أو الغرق"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 30, "note": "تقليل تدريجي قبل الجني"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 15, "duration_days": 60, "type": "نيتروجين + مغنيسيوم + زنك", "note": "دفعات مع الري"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم عالي", "note": "تحسين حجم ورائمة الدرنات"}
+      ]
+    },
+	{
+      "crop_id": "hibiscus",
+      "crop_name_ar": "الكركديه (للشاي)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 21, "repeat_days": 5, "duration_days": 30, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 51, "repeat_days": 4, "duration_days": 40, "note": "ري حرج أثناء التزهير وتكوين الكأسات"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم النمو"},
+        {"start_day": 40, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين حجم ولون الكأسات"}
+      ]
+    },
+    {
+      "crop_id": "radish",
+      "crop_name_ar": "الفجل",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 10, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 11, "repeat_days": 3, "duration_days": 15, "note": "ري منتظم أثناء تمدد الجذور"},
+        {"start_day": 26, "repeat_days": 4, "duration_days": 5, "note": "تقليل تدريجي قبل الحصاد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم (قليل النيتروجين)", "note": "تجنب السماد البلدي الطازج"},
+        {"start_day": 10, "repeat_days": 0, "type": "نيتروجين خفيف جداً", "note": "فقط إذا كان النمو ضعيفاً"},
+        {"start_day": 15, "repeat_days": 0, "type": "بورون + كالسيوم (رشة)", "note": "منع التليف وتحسين الشكل"}
+      ]
+    },
+    {
+      "crop_id": "mint",
+      "crop_name_ar": "النعناع",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 15, "note": "ري خفيف للإنبات والتجذير"},
+        {"start_day": 16, "repeat_days": 3, "duration_days": 20, "note": "ري منتظم، الحفاظ على رطوبة متوسطة"},
+        {"start_day": 36, "repeat_days": 2, "duration_days": 15, "note": "ري بعد كل حشة لتحفيز النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 15, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم النمو"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف بعد القص", "note": "تحفيز التفرع وإنتاج الزيت"}
+      ]
+    },
+    {
+      "crop_id": "cucumber",
+      "crop_name_ar": "الخيار",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 15, "note": "ري خفيف لثبات الجذور"},
+        {"start_day": 16, "repeat_days": 2, "duration_days": 25, "note": "ري متكرر أثناء التمدد الخضري"},
+        {"start_day": 41, "repeat_days": 3, "duration_days": 30, "note": "ري منتظم أثناء الإثمار، تجنب الجفاف المفاجئ"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 15, "repeat_days": 7, "duration_days": 35, "type": "NPK متوازن + كالسيوم", "note": "إضافة دورية مع الري"},
+        {"start_day": 30, "repeat_days": 0, "type": "عناصر صغرى (رشة ورقية)", "note": "تحسين العقد ومنع المرارة"}
+      ]
+    },
+    {
+      "crop_id": "wheat",
+      "crop_name_ar": "القمح",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 25, "note": "ري خفيف لثبات البادرات"},
+        {"start_day": 26, "repeat_days": 7, "duration_days": 30, "note": "ري أثناء التفريعات"},
+        {"start_day": 56, "repeat_days": 5, "duration_days": 30, "note": "ري حرج عند الطلع والتلقيح"},
+        {"start_day": 86, "repeat_days": 6, "duration_days": 40, "note": "ري أثناء امتلاء الحبوب، إيقاف قبل الحصاد بـ 10 أيام"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين (الثلث الأول)", "note": "بعد 3-4 أسابيع"},
+        {"start_day": 45, "repeat_days": 0, "type": "نيتروجين (الثلث الثاني)", "note": "قبل التفريعات"},
+        {"start_day": 65, "repeat_days": 0, "type": "نيتروجين (الباقي) + زنك", "note": "عند الطلع"}
+      ]
+    },
+    {
+      "crop_id": "rice",
+      "crop_name_ar": "الأرز",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 0, "duration_days": 15, "note": "غمر بعمق 5 سم للإنبات"},
+        {"start_day": 16, "repeat_days": 0, "duration_days": 45, "note": "رفع منسوب الماء لـ 8-10 سم"},
+        {"start_day": 61, "repeat_days": 0, "duration_days": 30, "note": "تجفيف وتجفيف متقطع (AWD) لتوفير المياه"},
+        {"start_day": 91, "repeat_days": 0, "duration_days": 0, "note": "تصريف كامل قبل الحصاد بـ 10-14 يوم"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع التجهيز"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين (ثلث)", "note": "بعد التجذير"},
+        {"start_day": 45, "repeat_days": 0, "type": "نيتروجين (ثلث) + بوتاسيوم", "note": "قبل التفرعات"},
+        {"start_day": 70, "repeat_days": 0, "type": "نيتروجين (الباقي) + زنك", "note": "عند بداية الطلع"}
+      ]
+    },
+    {
+      "crop_id": "cotton",
+      "crop_name_ar": "القطن",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 6, "duration_days": 30, "note": "ري منتظم لثبات الشتلات"},
+        {"start_day": 31, "repeat_days": 7, "duration_days": 30, "note": "ري أثناء النمو الخضري"},
+        {"start_day": 61, "repeat_days": 5, "duration_days": 40, "note": "ري حرج أثناء التزهير وتكوين اللوز"},
+        {"start_day": 101, "repeat_days": 8, "duration_days": 30, "note": "تقليل تدريجي عند تفتح اللوز"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين (نصف الكمية)", "note": "بعد التجذير"},
+        {"start_day": 60, "repeat_days": 0, "type": "نيتروجين (الباقي) + بوتاسيوم", "note": "قبل التزهير"},
+        {"start_day": 85, "repeat_days": 0, "type": "بورون + كالسيوم (رشة)", "note": "لمنع تساقط اللوز"}
+      ]
+    },
+    {
+      "crop_id": "orange",
+      "crop_name_ar": "البرتقال",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 60, "note": "ري منتظم للأشجار حديثة الغرس"},
+        {"start_day": 61, "repeat_days": 6, "duration_days": 40, "note": "تقليل الري قبل التزهير بشهر"},
+        {"start_day": 101, "repeat_days": 5, "duration_days": 60, "note": "ري حرج أثناء العقد وتضخم الثمار"},
+        {"start_day": 161, "repeat_days": 7, "duration_days": 30, "note": "تقليل قبل النضج لتركيز السكريات ومنع التشقق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "سماد بلدي + فوسفور", "note": "يضاف شتاءً حول الطوق"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "NPK متوازن مجزأ", "note": "3 دفعات من الربيع للصيف"},
+        {"start_day": 100, "repeat_days": 0, "type": "بوتاسيوم + زنك + بورون", "note": "رشة ورقية لتحسين العقد والجودة"}
+      ]
+    },
+    {
+      "crop_id": "fig",
+      "crop_name_ar": "التين",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج لتركيز السكر"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم", "note": "تحسين جودة الثمار ومنع التشقق"}
+      ]
+    },
+    {
+      "crop_id": "faba_bean",
+      "crop_name_ar": "الفول البلدي",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 25, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 26, "repeat_days": 5, "duration_days": 35, "note": "ري منتظم أثناء النمو الخضري"},
+        {"start_day": 61, "repeat_days": 6, "duration_days": 30, "note": "ري حرج أثناء الإزهار وعقد القرون"},
+        {"start_day": 91, "repeat_days": 0, "duration_days": 0, "note": "إيقاف الري 2-3 أسابيع قبل الحصاد"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + لقاح العقد الجذرية", "note": "يخلط مع التربة أو البذور"},
+        {"start_day": 30, "repeat_days": 0, "type": "نيتروجين خفيف (اختياري)", "note": "فقط في الأراضي الضعيفة"},
+        {"start_day": 50, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "لتحسين عقد القرون"}
+      ]
+    },
+    {
+      "crop_id": "cabbage",
+      "crop_name_ar": "الكرنب (الملفوف)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 20, "note": "ري خفيف لثبات الشتلات"},
+        {"start_day": 21, "repeat_days": 3, "duration_days": 25, "note": "ري منتظم أثناء النمو"},
+        {"start_day": 46, "repeat_days": 4, "duration_days": 20, "note": "ري حرج أثناء تكوين الرؤوس"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK أساسي", "note": "يخلط مع التربة"},
+        {"start_day": 20, "repeat_days": 0, "type": "نيتروجين", "note": "دعم النمو الخضري"},
+        {"start_day": 35, "repeat_days": 0, "type": "بوتاسيوم + بورون + كالسيوم", "note": "منع تشقق الرؤوس وتحسين التخزين"}
+      ]
+    },
+    {
+      "crop_id": "lettuce",
+      "crop_name_ar": "الخس",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 15, "note": "ري خفيف جداً للإنبات"},
+        {"start_day": 16, "repeat_days": 3, "duration_days": 20, "note": "ري منتظم للحفاظ على الرطوبة"},
+        {"start_day": 36, "repeat_days": 4, "duration_days": 15, "note": "ري معتدل أثناء تكوين القلب"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK متوازن", "note": "أساسي مع التجهيز"},
+        {"start_day": 15, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم الأوراق"},
+        {"start_day": 25, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم", "note": "تحسين الصلابة ومنع احتراق الحواف"}
+      ]
+    },
+    {
+      "crop_id": "carrot",
+      "crop_name_ar": "الجزر",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف متكرر للإنبات"},
+        {"start_day": 21, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم أثناء تمدد الجذور"},
+        {"start_day": 51, "repeat_days": 5, "duration_days": 20, "note": "تقليل تدريجي قبل الحصاد لمنع التشقق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم (قليل النيتروجين)", "note": "تجنب السماد البلدي الطازج"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف + بوتاسيوم", "note": "دعم الجذور"},
+        {"start_day": 40, "repeat_days": 0, "type": "بورون + كالسيوم (رشة)", "note": "منع التليف والتشقق"}
+      ]
+    },
+    {
+      "crop_id": "basil",
+      "crop_name_ar": "الريحان",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 2, "duration_days": 15, "note": "ري خفيف للإنبات"},
+        {"start_day": 16, "repeat_days": 3, "duration_days": 20, "note": "ري منتظم، الحفاظ على رطوبة متوسطة"},
+        {"start_day": 36, "repeat_days": 2, "duration_days": 15, "note": "ري بعد كل حشة لتحفيز النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 15, "repeat_days": 0, "type": "NPK متوازن", "note": "دعم النمو"},
+        {"start_day": 25, "repeat_days": 0, "type": "نيتروجين خفيف بعد القص", "note": "تحفيز التفرع"}
+      ]
+    },
+    {
+      "crop_id": "turmeric",
+      "crop_name_ar": "الكركم",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 20, "note": "ري خفيف متكرر، رطوبة عالية"},
+        {"start_day": 21, "repeat_days": 3, "duration_days": 40, "note": "ري منتظم، تجنب الجفاف أو الغرق"},
+        {"start_day": 61, "repeat_days": 4, "duration_days": 30, "note": "تقليل تدريجي قبل الجني"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور + بوتاسيوم", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 15, "duration_days": 60, "type": "نيتروجين + مغنيسيوم + زنك", "note": "دفعات مع الري"},
+        {"start_day": 60, "repeat_days": 0, "type": "بوتاسيوم عالي", "note": "تحسين حجم ولون الدرنات"}
+      ]
+    },
+    {
+      "crop_id": "cinnamon",
+      "crop_name_ar": "القرفة (زراعة أصص/محمية)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 30, "note": "ري خفيف، الحفاظ على رطوبة عالية"},
+        {"start_day": 31, "repeat_days": 4, "duration_days": 45, "note": "ري معتدل، تجنب الجفاف الشديد"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 30, "note": "ري خفيف أثناء النمو"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي خفيف + فوسفور", "note": "يخلط مع وسط الزراعة"},
+        {"start_day": 30, "repeat_days": 20, "duration_days": 60, "type": "NPK متوازن مخفف", "note": "إضافة دورية مع الري"}
+      ]
+    },
+    {
+      "crop_id": "persimmon",
+      "crop_name_ar": "الكاكا",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 45, "note": "ري منتظم للأشجار الحديثة"},
+        {"start_day": 46, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل التزهير"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 45, "note": "ري أثناء العقد وتضخم الثمار"},
+        {"start_day": 121, "repeat_days": 7, "duration_days": 20, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يضاف شتاءً"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو"},
+        {"start_day": 70, "repeat_days": 0, "type": "بوتاسيوم + كالسيوم", "note": "تحسين صلابة الثمار ومنع التساقط"}
+      ]
+    },
+    {
+      "crop_id": "avocado",
+      "crop_name_ar": "الأفوكادو",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 3, "duration_days": 45, "note": "ري منتظم، حساس للجفاف والغرق"},
+        {"start_day": 46, "repeat_days": 5, "duration_days": 40, "note": "ري حرج أثناء التزهير والعقد"},
+        {"start_day": 86, "repeat_days": 4, "duration_days": 60, "note": "ري أثناء تضخم الثمار"},
+        {"start_day": 146, "repeat_days": 6, "duration_days": 30, "note": "تقليل قبل الجني"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "عضوي + فوسفور", "note": "يخلط مع التربة"},
+        {"start_day": 40, "repeat_days": 30, "duration_days": 90, "type": "نيتروجين مجزأ + زنك", "note": "دفعات من الربيع للصيف"},
+        {"start_day": 90, "repeat_days": 0, "type": "بوتاسيوم + بورون (رشة)", "note": "تحسين الجودة ومقاومة الشمس"}
+      ]
+    },
+    {
+      "crop_id": "pistachio",
+      "crop_name_ar": "الفستق",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 60, "note": "ري منتظم للشتلات، يتحمل الجفاف لاحقاً"},
+        {"start_day": 61, "repeat_days": 8, "duration_days": 40, "note": "ري خفيف قبل التزهير"},
+        {"start_day": 101, "repeat_days": 6, "duration_days": 45, "note": "ري أثناء ملء النواة"},
+        {"start_day": 146, "repeat_days": 8, "duration_days": 30, "note": "تقليل قبل النضج"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + عضوي", "note": "يخلط مع حفرة الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين + زنك", "note": "دعم النمو"},
+        {"start_day": 80, "repeat_days": 0, "type": "بوتاسيوم + بورون", "note": "تحسين امتلاء الثمار"}
+      ]
+    },
+    {
+      "crop_id": "aloe_vera",
+      "crop_name_ar": "الصبار (الألوفيرا)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 7, "duration_days": 45, "note": "ري خفيف جداً، يتحمل الجفاف"},
+        {"start_day": 46, "repeat_days": 10, "duration_days": 60, "note": "ري عند جفاف التربة تماماً"},
+        {"start_day": 106, "repeat_days": 14, "duration_days": 30, "note": "ري نادر، تجنب الغرق"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "رمل خشن + فوسفور خفيف", "note": "لضمان صرف ممتاز"},
+        {"start_day": 60, "repeat_days": 0, "type": "سماد سائل مخفف جداً", "note": "مرة واحدة في الربيع"}
+      ]
+    },
+    {
+      "crop_id": "lantana",
+      "crop_name_ar": "لانتانا (أم كلثوم)",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 4, "duration_days": 30, "note": "ري منتظم للتجذير"},
+        {"start_day": 31, "repeat_days": 6, "duration_days": 45, "note": "ري معتدل، تتحمل الجفاف"},
+        {"start_day": 76, "repeat_days": 5, "duration_days": 30, "note": "ري خفيف أثناء التزهير المستمر"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "NPK أساسي", "note": "يخلط مع التربة"},
+        {"start_day": 30, "repeat_days": 20, "duration_days": 60, "type": "بوتاسيوم + فوسفور", "note": "دعم الإزهار المستمر"}
+      ]
+    },
+    {
+      "crop_id": "oleander",
+      "crop_name_ar": "الدفلة",
+      "watering_schedule": [
+        {"start_day": 1, "repeat_days": 5, "duration_days": 45, "note": "ري منتظم للشتلات"},
+        {"start_day": 46, "repeat_days": 8, "duration_days": 60, "note": "ري معتدل، تتحمل الجفاف والملوحة"},
+        {"start_day": 106, "repeat_days": 7, "duration_days": 30, "note": "ري خفيف أثناء التزهير"}
+      ],
+      "fertilization_schedule": [
+        {"start_day": 0, "repeat_days": 0, "type": "فوسفور + بوتاسيوم", "note": "أساسي مع الزراعة"},
+        {"start_day": 40, "repeat_days": 0, "type": "نيتروجين خفيف", "note": "دعم النمو الخضري"}
+      ]
+    }
+  ]
+}
